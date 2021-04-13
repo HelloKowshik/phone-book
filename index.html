@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Phone Book</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4">Simple Phone Book</h1>
+        <hr/>
+        <form id="add-form">
+            <div class="row mb-2">
+              <div class="col">
+                <input type="text" id="fullName" class="form-control" placeholder="Full name">
+              </div>
+              <div class="col">
+                <input type="email" id="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col">
+                    <input type="text" id="phone" class="form-control" placeholder="Phone Number">
+                  </div>
+                  <div class="col">
+                    <input type="text" id="address" class="form-control" placeholder="Title/Address">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Add To Contact</button>
+          </form>
+          <hr/>
+    </div>
+    <div class="container">
+        <h4 class="display-4">Contact List</h4>
+        <div class="row">
+            <div class="col">
+                <input type="text" id="searchText" class="form-control" placeholder="Search Name/Phone/Email">
+            </div>
+        </div>
+        <hr/>
+        <div id="parentDiv">
+        <!-- <div class="mb-2">
+            <ul class="list-group">
+                <li class="list-group-item">John Doe</li>
+                <li class="list-group-item">john@doe.com</li>
+                <li class="list-group-item">01911</li>
+                <li class="list-group-item">Developer/Ctg</li>
+                <li class="list-group-item"><button type="button" class="btn btn-primary btn-sm">Delete</button></li>
+            </ul>
+        </div>
+        <div class="mb-2">
+            <ul class="list-group">
+                <li class="list-group-item">John Doe</li>
+                <li class="list-group-item">john@doe.com</li>
+                <li class="list-group-item">01911</li>
+                <li class="list-group-item">Developer/Ctg</li>
+                <li class="list-group-item"><button type="button" class="btn btn-primary btn-sm">Delete</button></li>
+            </ul>
+        </div> -->
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
